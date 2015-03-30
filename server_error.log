@@ -1,0 +1,707 @@
+2015-03-30 10:36:10,920 [main] ERROR com.vbur.avensis.chart.UserRequest - Cannot run program "cls": CreateProcess error=2, The system cannot find the file specified
+2015-03-30 10:37:29,586 [main] ERROR com.vbur.avensis.chart.UserRequest - Cannot run program "clear": CreateProcess error=2, The system cannot find the file specified
+2015-03-30 10:37:49,729 [main] ERROR com.vbur.avensis.chart.UserRequest - Cannot run program "CLS": CreateProcess error=2, The system cannot find the file specified
+2015-03-30 12:34:17,905 [main] ERROR com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Error inigializing database pool
+java.sql.SQLException: Unable to open a test connection to the given database. JDBC url = jdbc:postgresql://212.146.105.61:5432/anevis, username = anevis. Terminating connection pool (set lazyInit to true if you expect to start your database after your app). Original Exception: ------
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "anevis"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363)
+	at com.jolbox.bonecp.BoneCP.<init>(BoneCP.java:416)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.<init>(DatabaseEngine.java:70)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.getInstance(DatabaseEngine.java:26)
+	at com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:48)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:47)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:59)
+------
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.jolbox.bonecp.PoolUtil.generateSQLException(PoolUtil.java:192)
+	at com.jolbox.bonecp.BoneCP.<init>(BoneCP.java:422)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.<init>(DatabaseEngine.java:70)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.getInstance(DatabaseEngine.java:26)
+	at com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:48)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:47)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:59)
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "anevis"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363)
+	at com.jolbox.bonecp.BoneCP.<init>(BoneCP.java:416)
+	... 5 more
+2015-03-30 12:35:07,398 [main] ERROR com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Error inigializing database pool
+java.sql.SQLException: Unable to open a test connection to the given database. JDBC url = jdbc:postgresql://212.146.105.61:5432/anevis, username = anevis. Terminating connection pool (set lazyInit to true if you expect to start your database after your app). Original Exception: ------
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "anevis"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363)
+	at com.jolbox.bonecp.BoneCP.<init>(BoneCP.java:416)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.<init>(DatabaseEngine.java:70)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.getInstance(DatabaseEngine.java:26)
+	at com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:48)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:47)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:59)
+------
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.jolbox.bonecp.PoolUtil.generateSQLException(PoolUtil.java:192)
+	at com.jolbox.bonecp.BoneCP.<init>(BoneCP.java:422)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.<init>(DatabaseEngine.java:70)
+	at com.vbur.avensis.chart.DatabaseController.DatabaseEngine.getInstance(DatabaseEngine.java:26)
+	at com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:48)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:47)
+	at com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:59)
+Caused by: org.postgresql.util.PSQLException: FATAL: password authentication failed for user "anevis"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:293)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:108)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:66)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:125)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:30)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:22)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:32)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:393)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.jolbox.bonecp.BoneCP.obtainRawInternalConnection(BoneCP.java:363)
+	at com.jolbox.bonecp.BoneCP.<init>(BoneCP.java:416)
+	... 5 more
+2015-03-30 12:35:52,891 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:47)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:59)
+
+2015-03-30 12:49:57,450 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Deutschland
+2015-03-30 12:49:57,466 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Frankreich
+2015-03-30 12:49:57,545 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Spanien
+2015-03-30 12:49:57,617 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Niederlande
+2015-03-30 12:49:57,684 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Belgien
+2015-03-30 12:49:57,736 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Italien
+2015-03-30 12:49:57,810 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Groﬂbritannien
+2015-03-30 12:49:57,852 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Kanada
+2015-03-30 12:49:57,925 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Liquidit‰t/Terminkontrakte
+2015-03-30 12:49:57,979 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,043 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,098 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,165 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,264 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,333 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,383 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,448 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,529 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,647 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,742 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,809 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,856 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:58,947 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:59,023 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:59,121 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:59,170 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:59,240 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:59,291 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:59,359 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:49:59,360 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:49:59,360 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:49:59,360 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:49:59,361 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:49:59,361 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:31,783 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:31,803 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:31,857 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:31,911 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,029 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,070 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,129 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,205 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,299 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,368 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,458 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,531 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,620 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,693 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,783 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,854 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:32,970 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:33,013 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:33,083 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:33,134 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:33,135 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:33,135 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:33,135 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:33,135 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:33,135 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:54,999 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Deutschland
+2015-03-30 12:51:55,005 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Frankreich
+2015-03-30 12:51:55,079 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Spanien
+2015-03-30 12:51:55,170 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Niederlande
+2015-03-30 12:51:55,227 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Belgien
+2015-03-30 12:51:55,274 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Italien
+2015-03-30 12:51:55,334 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Groﬂbritannien
+2015-03-30 12:51:55,405 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Kanada
+2015-03-30 12:51:55,497 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data Liquidit‰t/Terminkontrakte
+2015-03-30 12:51:55,549 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:55,602 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:55,675 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:55,726 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:55,775 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:55,825 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:55,895 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:55,951 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,000 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,071 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,122 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,194 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,284 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,335 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,386 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,457 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,510 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,563 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,622 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,715 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:51:56,716 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:56,717 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:56,717 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:51:56,717 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:54:48,402 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,427 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,473 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,545 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,614 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,670 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,785 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,829 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,895 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:48,949 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,004 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,078 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,142 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,198 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,261 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,311 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,382 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,432 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,499 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,550 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:54:49,551 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:54:49,551 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:54:49,551 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:54:49,551 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:54:49,551 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:54:49,551 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:54:49,551 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:55:27,861 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:27,876 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:27,961 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,032 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,162 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,249 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,339 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,390 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,482 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,552 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,618 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,695 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,814 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:28,907 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:29,001 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:29,052 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:29,143 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:29,214 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:29,283 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:29,338 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Unable to insert data null
+2015-03-30 12:55:29,338 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:55:29,339 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:55:29,339 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 12:55:29,339 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.create(SQLPieChart.java:49)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.read(ReadExcel.java:39)
+ com.vbur.avensis.chart.BaseServices.ReadExcel.main(ReadExcel.java:50)
+
+2015-03-30 13:25:35,293 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart Apple
+2015-03-30 13:25:35,313 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart  L'Oreal Skincare and Health Ltd.
+2015-03-30 13:25:35,363 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart Volkswagen AG'); drop table ring_chart;--
+2015-03-30 13:25:35,437 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart /\/\icrosoft Computers and ASCII Art Inc. 
+2015-03-30 13:25:35,510 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart American Airlines Inc.
+2015-03-30 13:25:35,586 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart M√ºnchen Mag Dich T-Shirts GmbH
+2015-03-30 13:25:35,587 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:25:35,588 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:25:35,588 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:25:35,587 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:26:20,607 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart Apple
+2015-03-30 13:26:20,634 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart  L'Oreal Skincare and Health Ltd.
+2015-03-30 13:26:20,680 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart Volkswagen AG'); drop table ring_chart;--
+2015-03-30 13:26:20,755 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart /\/\icrosoft Computers and ASCII Art Inc. 
+2015-03-30 13:26:20,872 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart American Airlines Inc.
+2015-03-30 13:26:20,936 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart M√ºnchen Mag Dich T-Shirts GmbH
+2015-03-30 13:26:20,937 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:26:20,937 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:26:20,937 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:26:20,937 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:27:50,198 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart Apple
+2015-03-30 13:27:50,216 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart  L'Oreal Skincare and Health Ltd.
+2015-03-30 13:27:50,264 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart Volkswagen AG'); drop table ring_chart;--
+2015-03-30 13:27:50,337 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart /\/\icrosoft Computers and ASCII Art Inc. 
+2015-03-30 13:27:50,428 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart American Airlines Inc.
+2015-03-30 13:27:50,477 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLRingChart - Unable to insert data SQLRingChart M√ºnchen Mag Dich T-Shirts GmbH
+2015-03-30 13:27:50,479 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:27:50,479 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:27:50,479 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLRingChart.insert(SQLRingChart.java:50)
+ com.vbur.avensis.chart.BaseServices.CSVParser.read(CSVParser.java:38)
+ com.vbur.avensis.chart.BaseServices.CSVParser.main(CSVParser.java:50)
+
+2015-03-30 13:59:39,803 [main] ERROR com.vbur.avensis.chart.DatabaseController.SQLPieChart - Error initializating database SQLPieChart
+org.postgresql.util.PSQLException: The column name name was not found in this ResultSet.
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.findColumn(AbstractJdbc2ResultSet.java:2542)
+	at org.postgresql.jdbc2.AbstractJdbc2ResultSet.getString(AbstractJdbc2ResultSet.java:2385)
+	at com.vbur.avensis.chart.DatabaseController.SQLPieChart.processRow(SQLPieChart.java:37)
+	at com.vbur.avensis.chart.DatabaseController.SQLPieChart.dataPie(SQLPieChart.java:25)
+	at com.vbur.avensis.chart.PieChart.createDataset(PieChart.java:51)
+	at com.vbur.avensis.chart.PieChart.<init>(PieChart.java:31)
+	at com.vbur.avensis.chart.StartChart.main(StartChart.java:29)
+2015-03-30 13:59:39,952 [BoneCP-connection-watch-thread] ERROR com.jolbox.bonecp.CloseThreadMonitor - Connection obtained from thread [main] was never closed. 
+Stack trace of location where connection was obtained follows:
+ java.lang.Thread.getStackTrace(Unknown Source)
+ com.jolbox.bonecp.BoneCP.captureStackTrace(BoneCP.java:572)
+ com.jolbox.bonecp.BoneCP.watchConnection(BoneCP.java:561)
+ com.jolbox.bonecp.AbstractConnectionStrategy.postConnection(AbstractConnectionStrategy.java:79)
+ com.jolbox.bonecp.AbstractConnectionStrategy.getConnection(AbstractConnectionStrategy.java:92)
+ com.jolbox.bonecp.BoneCP.getConnection(BoneCP.java:553)
+ com.vbur.avensis.chart.DatabaseController.SQLPieChart.dataPie(SQLPieChart.java:21)
+ com.vbur.avensis.chart.PieChart.createDataset(PieChart.java:51)
+ com.vbur.avensis.chart.PieChart.<init>(PieChart.java:31)
+ com.vbur.avensis.chart.StartChart.main(StartChart.java:29)
+

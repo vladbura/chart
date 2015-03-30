@@ -1,0 +1,524 @@
+2015-03-30 10:28:13,657 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:28:15,180 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:33:18,993 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:33:20,131 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:33:23,566 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:33:24,720 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:33:26,434 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:33:27,203 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:33:46,593 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:33:47,316 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:36:09,812 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:36:10,915 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:37:29,074 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:37:29,581 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:37:49,284 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:37:49,725 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:39:41,428 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:39:42,244 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:39:44,672 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:39:45,549 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:40:28,485 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:40:29,302 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:41:04,241 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:41:04,973 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 10:41:05,832 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 10:41:06,488 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 11:08:56,445 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 11:08:57,660 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 12:34:17,768 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:34:17,788 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:35:07,231 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:35:07,252 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:35:52,487 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:35:52,508 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:35:52,809 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 12:35:52,871 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 12:49:57,035 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:49:57,056 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:49:57,340 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 12:49:57,411 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 12:51:31,052 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:51:31,073 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:51:31,312 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 12:51:31,391 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 12:51:54,425 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:51:54,445 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:51:54,895 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 12:51:54,977 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 12:54:47,665 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:54:47,686 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:54:47,930 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 12:54:47,986 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 12:55:27,220 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:55:27,241 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:55:27,499 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 12:55:27,546 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 12:59:52,715 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 12:59:52,736 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 12:59:52,956 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 12:59:53,053 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:00:17,993 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:00:18,014 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:00:18,234 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:00:18,287 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:01:18,409 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:01:18,430 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:01:18,655 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:01:18,712 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:01:59,636 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:01:59,657 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:01:59,880 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:01:59,930 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:25:34,897 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:25:34,918 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:25:35,174 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:25:35,254 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:26:20,202 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:26:20,223 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:26:20,468 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:26:20,561 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:27:49,879 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:27:49,901 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:27:50,107 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:27:50,165 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:28:51,395 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:28:51,416 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:28:51,691 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:28:51,744 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:45:55,012 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 1
+2015-03-30 13:45:55,844 [main] INFO com.vbur.avensis.chart.UserRequest - User choice: 2
+2015-03-30 13:53:14,174 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:53:14,198 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:53:14,483 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:53:14,533 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:54:34,214 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:54:34,238 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:54:34,487 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:54:34,538 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:55:30,567 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 13:55:30,581 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:55:30,604 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:55:30,852 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:55:30,932 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:57:48,906 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:57:48,927 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:57:49,158 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:57:49,213 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:58:13,106 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:58:13,128 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:58:13,403 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:58:13,457 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 13:59:39,402 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 13:59:39,417 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 13:59:39,441 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 13:59:39,683 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 13:59:39,768 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:00:10,303 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 14:00:10,317 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:00:10,340 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:00:10,613 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:00:10,665 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:00:10,704 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Deutschland
+2015-03-30 14:00:10,704 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Frankreich
+2015-03-30 14:00:10,705 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Spanien
+2015-03-30 14:00:10,705 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Niederlande
+2015-03-30 14:00:10,705 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Belgien
+2015-03-30 14:00:10,705 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Italien
+2015-03-30 14:00:10,705 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Groﬂbritannien
+2015-03-30 14:00:10,705 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Kanada
+2015-03-30 14:00:10,705 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Liquidit‰t/Terminkontrakte
+2015-03-30 14:00:46,678 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 14:00:46,692 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:00:46,716 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:00:47,001 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:00:47,054 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:00:47,097 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Deutschland
+2015-03-30 14:00:47,097 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Frankreich
+2015-03-30 14:00:47,098 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Spanien
+2015-03-30 14:00:47,098 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Niederlande
+2015-03-30 14:00:47,098 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Belgien
+2015-03-30 14:00:47,098 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Italien
+2015-03-30 14:00:47,098 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Groﬂbritannien
+2015-03-30 14:00:47,098 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Kanada
+2015-03-30 14:00:47,098 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Liquidit‰t/Terminkontrakte
+2015-03-30 14:04:59,558 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 14:04:59,573 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:04:59,596 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:04:59,837 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:04:59,915 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:04:59,962 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Deutschland
+2015-03-30 14:04:59,963 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Frankreich
+2015-03-30 14:04:59,963 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Spanien
+2015-03-30 14:04:59,963 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Niederlande
+2015-03-30 14:04:59,963 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Belgien
+2015-03-30 14:04:59,963 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Italien
+2015-03-30 14:04:59,963 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Groﬂbritannien
+2015-03-30 14:04:59,964 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Kanada
+2015-03-30 14:04:59,964 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Liquidit‰t/Terminkontrakte
+2015-03-30 14:07:20,393 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 14:07:20,406 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:07:20,429 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:07:20,669 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:07:20,724 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:07:20,761 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Deutschland
+2015-03-30 14:07:20,761 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Frankreich
+2015-03-30 14:07:20,762 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Spanien
+2015-03-30 14:07:20,762 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Niederlande
+2015-03-30 14:07:20,762 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Belgien
+2015-03-30 14:07:20,762 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Italien
+2015-03-30 14:07:20,762 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Groﬂbritannien
+2015-03-30 14:07:20,762 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Kanada
+2015-03-30 14:07:20,762 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Liquidit‰t/Terminkontrakte
+2015-03-30 14:14:41,351 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 14:14:41,365 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:14:41,385 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:14:41,658 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:14:41,738 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:14:41,792 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Deutschland
+2015-03-30 14:14:41,795 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Frankreich
+2015-03-30 14:14:41,795 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Spanien
+2015-03-30 14:14:41,796 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Niederlande
+2015-03-30 14:14:41,796 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Belgien
+2015-03-30 14:14:41,796 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Italien
+2015-03-30 14:14:41,796 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Groﬂbritannien
+2015-03-30 14:14:41,796 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Kanada
+2015-03-30 14:14:41,796 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Liquidit‰t/Terminkontrakte
+2015-03-30 14:15:08,885 [main] INFO com.vbur.avensis.chart.PieChart - Creates a sample dataset
+2015-03-30 14:15:08,899 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:15:08,919 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:15:09,186 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:15:09,275 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:15:09,321 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Deutschland
+2015-03-30 14:15:09,327 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Frankreich
+2015-03-30 14:15:09,327 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Spanien
+2015-03-30 14:15:09,328 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Niederlande
+2015-03-30 14:15:09,328 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Belgien
+2015-03-30 14:15:09,328 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Italien
+2015-03-30 14:15:09,328 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Groﬂbritannien
+2015-03-30 14:15:09,328 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Kanada
+2015-03-30 14:15:09,329 [main] INFO com.vbur.avensis.chart.PieChart - Inserting Liquidit‰t/Terminkontrakte
+2015-03-30 14:18:19,222 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:18:19,242 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:18:19,508 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:18:19,571 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:18:48,610 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:18:48,630 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:18:48,890 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:18:48,947 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:19:41,947 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:19:41,968 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:19:42,234 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:19:42,349 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:20:11,489 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:20:11,510 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:20:11,752 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:20:11,811 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:23:59,416 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:23:59,437 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:23:59,668 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:23:59,745 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:24:06,235 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:24:06,255 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:24:06,526 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:24:06,584 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:29:09,906 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:29:09,929 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:29:10,218 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:29:10,299 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:29:37,656 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:29:37,680 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:29:37,883 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:29:37,963 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:34:03,358 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:34:03,382 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:34:03,650 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:34:03,710 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:34:54,248 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:34:54,269 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:34:54,552 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:34:54,607 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:35:11,944 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:35:11,967 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:35:12,200 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:35:12,280 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:51:32,327 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:51:32,350 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:51:32,638 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:51:32,733 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:52:12,885 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:52:12,908 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:52:13,154 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:52:13,258 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:56:36,786 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:56:36,808 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:56:37,101 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:56:37,186 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:57:30,405 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:57:30,427 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:57:30,659 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:57:30,713 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 14:59:43,750 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 14:59:43,773 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 14:59:44,017 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 14:59:44,095 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:00:41,356 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:00:41,379 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:00:41,631 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:00:41,711 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:01:56,293 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:01:56,316 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:01:56,560 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:01:56,616 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:02:19,723 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:02:19,747 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:02:19,975 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:02:20,054 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:03:40,392 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:03:40,412 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:03:40,699 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:03:40,780 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:04:57,020 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:04:57,044 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:04:57,321 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:04:57,379 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:06:35,629 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:06:35,653 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:06:35,943 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:06:36,024 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:06:57,214 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:06:57,237 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:06:57,491 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:06:57,582 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:08:25,446 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:08:25,469 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:08:25,695 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:08:25,755 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:16:09,867 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:16:09,890 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:16:10,143 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:16:10,201 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:17:20,799 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:17:20,822 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:17:21,086 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:17:21,168 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:19:20,967 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:19:20,990 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:19:21,255 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:19:21,306 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:19:54,060 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:19:54,084 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:19:54,341 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:19:54,430 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:20:47,186 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:20:47,210 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:20:47,490 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:20:47,549 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:22:05,529 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:22:05,552 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:22:05,845 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:22:05,919 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:23:31,968 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:23:31,991 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:23:32,276 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:23:32,393 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:23:41,835 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:23:41,858 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:23:42,112 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:23:42,195 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:24:02,744 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:24:02,767 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:24:03,011 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:24:03,119 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:24:10,304 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:24:10,327 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:24:10,577 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:24:10,626 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:25:41,318 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:25:41,340 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:25:41,579 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:25:41,679 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:25:56,015 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:25:56,037 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:25:56,324 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:25:56,426 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:27:11,160 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:27:11,183 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:27:11,453 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:27:11,504 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:27:26,505 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:27:26,528 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:27:26,785 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:27:26,838 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:27:36,433 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:27:36,456 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:27:36,706 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:27:36,783 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:27:56,523 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:27:56,546 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:27:56,784 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:27:56,835 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:28:12,609 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:28:12,632 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:28:12,932 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:28:13,039 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:28:51,337 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:28:51,359 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:28:51,594 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:28:51,652 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:29:55,573 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:29:55,596 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:29:55,861 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:29:55,939 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:30:05,523 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:30:05,546 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:30:05,792 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:30:05,849 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:30:46,121 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:30:46,144 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:30:46,389 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:30:46,463 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:30:54,232 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:30:54,255 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:30:54,543 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:30:54,626 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:31:56,875 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:31:56,899 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:31:57,213 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:31:57,270 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:32:59,005 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:32:59,028 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:32:59,316 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:32:59,384 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:33:07,676 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:33:07,699 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:33:07,937 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:33:08,231 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:39:16,828 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:39:16,852 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:39:17,099 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:39:17,182 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:39:48,544 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:39:48,568 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:39:48,811 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:39:48,872 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:42:54,964 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:42:54,986 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:42:55,239 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:42:55,340 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:44:01,765 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:44:01,787 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:44:02,053 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:44:02,102 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:45:35,171 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:45:35,194 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:45:35,442 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:45:35,495 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:47:15,671 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:47:15,694 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:47:15,952 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:47:16,014 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:48:11,863 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:48:11,885 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:48:12,147 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:48:12,208 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:48:35,783 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:48:35,806 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:48:36,052 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:48:36,134 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:50:11,804 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:50:11,826 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:50:12,090 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:50:12,142 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:51:00,770 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:51:00,794 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:51:01,082 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:51:01,139 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:52:01,553 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:52:01,576 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:52:01,847 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:52:01,928 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:52:59,765 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:52:59,789 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:53:00,029 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:53:00,152 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:54:04,749 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:54:04,772 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:54:05,004 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:54:05,120 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:55:16,694 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:55:16,716 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:55:16,973 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:55:17,048 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:56:23,375 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:56:23,398 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:56:23,660 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:56:23,738 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:56:44,567 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:56:44,590 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:56:44,835 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:56:44,939 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:56:59,963 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:56:59,985 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:57:00,274 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:57:00,334 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:57:16,478 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:57:16,501 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:57:16,759 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:57:16,844 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 15:58:08,532 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 15:58:08,555 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 15:58:08,824 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 15:58:08,916 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:00:00,208 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:00:00,232 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:00:00,524 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:00:00,576 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:00:55,824 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:00:55,847 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:00:56,097 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:00:56,175 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:01:06,895 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:01:06,918 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:01:07,163 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:01:07,281 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:01:36,492 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:01:36,515 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:01:36,781 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:01:36,839 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:04:08,129 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:04:08,152 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:04:08,419 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:04:08,477 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:16:25,001 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:16:25,024 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:16:25,242 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:16:25,348 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:17:07,953 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:17:07,975 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:17:08,224 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:17:08,317 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:17:18,882 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:17:18,904 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:17:19,191 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:17:19,253 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:18:02,751 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:18:02,775 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:18:03,020 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:18:03,084 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:18:57,152 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:18:57,175 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:18:57,436 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:18:57,516 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:22:19,869 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:22:19,892 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:22:21,362 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:22:21,442 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:22:29,571 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:22:29,594 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:22:29,844 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:22:29,970 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
+2015-03-30 16:25:12,393 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database configuration
+2015-03-30 16:25:12,416 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Initializing database pool
+2015-03-30 16:25:12,682 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Database pool initialized. Running test query!
+2015-03-30 16:25:12,737 [main] INFO com.vbur.avensis.chart.DatabaseController.DatabaseEngine - Test succesfull server version is: "PostgreSQL 9.3.5 on x86_64-pc-linux-gnu, compiled by x86_64-pc-linux-gnu-gcc (Gentoo 4.7.3-r1 p1.4, pie-0.5.5) 4.7.3, 64-bit"
