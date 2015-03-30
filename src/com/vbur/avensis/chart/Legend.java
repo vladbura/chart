@@ -37,7 +37,6 @@ public class Legend extends JLabel{
 	/*
 	 * Custom draw the label if rectangle is needed
 	 */
-	@Override
 	public void paintComponent(Graphics g) {
 		// if the rectangle should be visible, then custom draw the label
 		// otherwise use default rendering
