@@ -9,7 +9,3 @@ Importing the file from resources can be made by running CSVPareser or ExcelPars
 
 
 Exporting the file in PDF can be made by Running the StartChart witch give you the option to chose exporting type
-
-PS: 
-This can be  better but not in 2-3 hours
-Is the first time that I'm making graph in java
