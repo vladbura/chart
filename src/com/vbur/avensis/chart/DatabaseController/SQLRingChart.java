@@ -35,9 +35,9 @@ public class SQLRingChart {
 
 	private  DataRing processRow(ResultSet result) throws SQLException {
 		DataRing data = new DataRing();
-		data.setName(result.getString("name"));
-		data.setWeight(result.getDouble("weight"));
-		data.setDate(result.getString("date"));
+		data.setName(result.getString("security"));
+		data.setWeight(result.getDouble("weighting"));
+		data.setDate(result.getString("pie_date"));
 		return data;
 	}
 

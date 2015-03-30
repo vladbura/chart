@@ -7,6 +7,8 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
+import com.vbur.avensis.chart.BaseServices.Constants;
+import com.vbur.avensis.chart.BaseServices.PDFServices;
 import com.vbur.avensis.chart.DatabaseController.DatabaseEngine;
 
 /**
@@ -24,18 +26,12 @@ public class StartChart {
 	 */
 	public static void main(String[] args) {
 		DOMConfigurator.configure("configs/logger.xml");
-		PieChart demo = new PieChart("Pie chart", "");
-	    demo.pack();
-	    demo.setVisible(true);
-		
-//		while(true){
-//			int readType = UserRequest.question(Constants.SELECT_READ_TYPE);
-//			int outType = UserRequest.question(Constants.SELECT_OUTPUT_TYPE);
-//			
-//			System.out.println("Process finish. Restart the process \n \n");
-//			UserRequest.clearConsole();
-//		}
-		
+		while(true){
+			int readType = UserRequest.question(Constants.SELECT_READ_TYPE);
+			PieChart demo = new PieChart("Chart PDF","","chart.pdf",readType);
+			System.out.println("Process finish. Restart the process \n \n");
+			UserRequest.clearConsole();
+		}
 	}
 
 }

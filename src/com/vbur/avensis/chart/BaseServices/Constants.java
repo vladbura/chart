@@ -8,14 +8,13 @@ public class Constants {
 	/**
 	 * Questions
 	 */
-	public static final String SELECT_READ_TYPE = "From where you want to read data: \n 1: Database \n 2: File";
-	public static final String SELECT_OUTPUT_TYPE = "Pie chart type will be: \n 1: Pie \n 2: Ring";
+	public static final String SELECT_READ_TYPE = "Select Pie type: \n 1: Pie Chart \n 2: Ring Chart";
 	
 	/*
 	 * Pie type
 	 */
-	public static final int PIE_CHART = 0;
-	public static final int RING_CHART = 1;
+	public static final int PIE_CHART = 1;
+	public static final int RING_CHART = 2;
 	
 	
 }
